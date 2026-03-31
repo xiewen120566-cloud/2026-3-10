@@ -15,7 +15,7 @@ export default async function Info({ locale }: { locale: Locale }) {
   const baseUrlInput = (process.env.BASE_URL ?? "")
     .trim()
     .replace(/^['"]+|['"]+$/g, "");
-  const baseUrl = baseUrlInput || "https://slopegames.net";
+  const baseUrl = baseUrlInput || "https://www.itechspot.net";
   const normalizedBaseUrl =
     baseUrl.startsWith("http://") || baseUrl.startsWith("https://")
       ? baseUrl

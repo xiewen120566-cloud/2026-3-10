@@ -27,7 +27,7 @@ export default async function LocaleLayout({
     <BaseLayout locale={locale}>
       <Script
         async
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3991461507516186"
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1300840118716642"
         crossOrigin="anonymous"
         strategy="beforeInteractive"
       />
@@ -65,7 +65,7 @@ var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n
 ;n.type="text/javascript",n.async=!0,n.src=r+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
 
 
-  ttq.load('D6VVB0RC77U1CKLVQT6G');
+  ttq.load('D75OB8JC77U89JBPBFV0');
   ttq.page();
 }(window, document, 'ttq');
           `,

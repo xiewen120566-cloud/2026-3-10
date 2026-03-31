@@ -35,7 +35,7 @@ export default async function Page({
   const baseUrlInput = (process.env.BASE_URL ?? "")
     .trim()
     .replace(/^['"]+|['"]+$/g, "");
-  const baseUrl = baseUrlInput || "https://slopegames.net";
+  const baseUrl = baseUrlInput || "https://www.itechspot.net";
   const normalizedBaseUrl =
     baseUrl.startsWith("http://") || baseUrl.startsWith("https://")
       ? baseUrl
@@ -54,8 +54,8 @@ export default async function Page({
         <ElTemplate 
           id="goplaygame-Home-MultiAd"
           className="adsbygoogle"
-          data-ad-client="ca-pub-3991461507516186"
-          data-ad-slot="2282977275"
+          data-ad-client="ca-pub-1300840118716642"
+          data-ad-slot="5988785930"
           data-ad-format="autorelaxed"
           style={{ display: "block" }}
         />
@@ -214,8 +214,8 @@ export default async function Page({
         <ElTemplate 
           id="goplaygame-Home-Banner"
           className="adsbygoogle"
-          data-ad-client="ca-pub-3991461507516186"
-          data-ad-slot="2203654449"
+          data-ad-client="ca-pub-1300840118716642"
+          data-ad-slot="7621831189"
           data-ad-format="auto"
           data-full-width-responsive="true"
           style={{ display: "block" }}
