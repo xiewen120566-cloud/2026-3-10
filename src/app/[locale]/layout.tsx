@@ -27,7 +27,7 @@ export default async function LocaleLayout({
     <BaseLayout locale={locale}>
       <Script
         async
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1300840118716642"
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3667734512479064"
         crossOrigin="anonymous"
         strategy="beforeInteractive"
       />

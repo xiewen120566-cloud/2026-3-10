@@ -54,8 +54,8 @@ export default async function Page({
         <ElTemplate 
           id="goplaygame-Home-MultiAd"
           className="adsbygoogle"
-          data-ad-client="ca-pub-1300840118716642"
-          data-ad-slot="5988785930"
+          data-ad-client="ca-pub-3667734512479064"
+          data-ad-slot="8602889336"
           data-ad-format="autorelaxed"
           style={{ display: "block" }}
         />
@@ -214,8 +214,8 @@ export default async function Page({
         <ElTemplate 
           id="goplaygame-Home-Banner"
           className="adsbygoogle"
-          data-ad-client="ca-pub-1300840118716642"
-          data-ad-slot="7621831189"
+          data-ad-client="ca-pub-3667734512479064"
+          data-ad-slot="5269504787"
           data-ad-format="auto"
           data-full-width-responsive="true"
           style={{ display: "block" }}
