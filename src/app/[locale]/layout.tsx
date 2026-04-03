@@ -31,27 +31,6 @@ export default async function LocaleLayout({
         crossOrigin="anonymous"
         strategy="beforeInteractive"
       />
-      <Script
-        async
-        src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"
-        crossOrigin="anonymous"
-        strategy="beforeInteractive"
-      />
-      <Script
-        id="gpt-init"
-        strategy="beforeInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `
-window.googletag = window.googletag || {cmd: []};
-googletag.cmd.push(function() {
-  googletag.defineSlot('/23319049762/ad-2', [320, 100], 'div-gpt-ad-1775218163351-0').addService(googletag.pubads());
-  googletag.defineSlot('/23319049762/ad-2', [320, 100], 'div-gpt-ad-1775218163351-1').addService(googletag.pubads());
-  googletag.pubads().enableSingleRequest();
-  googletag.enableServices();
-});
-          `,
-        }}
-      />
 
       {/* <Script
         async
